@@ -1,0 +1,19 @@
+.container {
+  width: 20rem;
+  height: 21.5rem;
+  padding: 1.0625rem;
+  border-radius: 4px;
+}
+
+.artistDetail strong {
+  font-size: 1.0625rem;
+  font-weight: 600;
+  color: var(--gray-50);
+}
+
+.artistDetail p {
+  font-size: 0.6rem;
+  font-weight: 500;
+  color: var(--gray-100);
+  margin-top: 0.5rem;
+}

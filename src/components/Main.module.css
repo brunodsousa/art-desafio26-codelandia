@@ -1,0 +1,203 @@
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.contentExplorerSection {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 3.6875rem;
+}
+
+.contentExplorerSection_text {
+  width: 25.5625rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.contentExplorerSection_text h2 {
+  font-size: 2.125rem;
+  font-weight: 600;
+  color: var(--gray-900);
+}
+
+.contentExplorerSection_text p {
+  margin: 0.6875rem 0 1.375rem 0;
+  font-size: 1.0625rem;
+  color: var(--gray-400);
+}
+
+.contentExplorerSection_infos {
+  width: 16rem;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2.125rem;
+}
+
+.contentExplorerSection_infos div {
+  width: 5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.contentExplorerSection_infos div strong {
+  font-size: 1.375rem;
+  font-weight: 600;
+  color: var(--gray-900);
+}
+
+.contentExplorerSection_infos div p {
+  margin-top: 0.3125rem;
+  font-size: 0.7rem;
+  font-weight: 500;
+  text-align: center;
+  color: var(--gray-400);
+}
+
+.contentExplorerSection img {
+  width: 17.5625rem;
+}
+
+.collectionsSection {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3.5rem;
+}
+
+.collectionsSection_img {
+  display: flex;
+  justify-content: space-between;
+  gap: 2.375rem;
+}
+
+.collectionsSection_img img {
+  width: 8.875rem;
+  border-radius: 4px;
+}
+
+.collectionsSection_text {
+  width: 17.5625rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.collectionsSection_text h2 {
+  margin-bottom: 1.375rem;
+  font-size: 1.75rem;
+  font-weight: 500;
+  color: var(--gray-900);
+}
+
+.artistsSection {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 3.5rem 0;
+}
+
+.artistsSection h2 {
+  font-size: 1.75rem;
+  font-weight: 500;
+  color: var(--gray-900);
+  margin-bottom: 1.75rem;
+}
+
+.artistsSection_img {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 1290px) {
+  main {
+    margin-top: 2.875rem;
+  }
+
+  .contentExplorerSection {
+    flex-direction: column;
+    margin-top: 0;
+  }
+
+  .contentExplorerSection_text,
+  .contentExplorerSection_text {
+    width: 100%;
+  }
+
+  .contentExplorerSection_text strong {
+    font-size: 1.7rem;
+  }
+
+  .contentExplorerSection_text p {
+    margin: 0.5rem 0 1.5rem 0;
+    font-size: 0.8rem;
+  }
+
+  .contentExplorerSection_text button {
+    width: 100%;
+  }
+
+  .contentExplorerSection img {
+    display: none;
+  }
+
+  .contentExplorerSection_infos {
+    width: 100%;
+    margin-top: 2.5rem;
+  }
+
+  .collectionsSection {
+    margin-top: 0;
+  }
+
+  .collectionsSection,
+  .collectionsSection_img {
+    flex-direction: column;
+  }
+
+  .collectionsSection_img {
+    gap: 1rem;
+    margin-top: 1.5rem;
+  }
+
+  .collectionsSection_img img {
+    width: 100%;
+    height: auto;
+  }
+
+  .collectionsSection_text {
+    width: 100%;
+    margin-top: 2rem;
+  }
+
+  .collectionsSection_text button {
+    width: 100%;
+  }
+
+  .collectionsSection_text strong {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .artistsSection {
+    margin-top: 3rem;
+  }
+
+  .artistsSection h2 {
+    font-size: 1.7rem;
+    margin-bottom: 0;
+  }
+
+  .artistsSection_img {
+    width: 100%;
+    margin-top: 1.5rem;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .artistsSection_img div {
+    width: 100%;
+  }
+}

@@ -1,0 +1,34 @@
+:root {
+  --blue-500: #3772ff;
+  --white: #ffffff;
+  --gray-50: #f9f9f9;
+  --gray-100: #ebebeb;
+  --gray-400: #737373;
+  --gray-900: #0c0c0c;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 1.75rem 15.375rem;
+  background: var(--gray-50);
+  -webkit-font-smoothing: antialiased;
+}
+
+body,
+input,
+button {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+  body {
+    padding: 1.0625rem;
+  }
+}

@@ -1,0 +1,38 @@
+.container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container h1 {
+  display: flex;
+  align-items: center;
+}
+
+.container h1 img {
+  width: 2.5625rem;
+  height: 1.6875rem;
+  margin-right: 10.3125rem;
+}
+
+@media (max-width: 1290px) {
+  .container {
+    align-items: flex-end;
+  }
+
+  .container h1 img {
+    width: 2.75rem;
+    height: auto;
+    margin-right: 0;
+  }
+
+  .container h1 {
+    display: grid;
+    place-content: bottom;
+  }
+
+  .searchBar {
+    display: none;
+  }
+}
